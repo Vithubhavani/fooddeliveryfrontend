@@ -1,0 +1,237 @@
+.container{
+    width:1150px;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+.cartItem{
+    list-style: none;
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 15px;
+}
+
+.foodImage{
+    width: 45px;
+    height: 45px;
+}
+
+.foodsorder{
+    display: flex;
+    margin-top: 20px;
+}
+
+.checkfood{
+    border: 1px solid black;
+    width: 700px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 12px;
+  
+}
+
+.itemDetails{
+    margin-left: 20px;
+}
+
+.itemDetails h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.itemDetails p{
+font-size: 12px;
+font-weight: 400;
+width: 520px;
+margin-top: 8px;
+}
+
+.price{
+    font-size: 14px;
+    font-weight: 400;
+    color: #028643;
+    font-weight: 600;
+  
+}
+
+.note{
+    border-radius: 100px;
+    border: 1px solid #202938;
+    height: 40px;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.notetext{
+    color: #83858A;
+    font-size: 12px;
+}
+
+.heading{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.addingAddress{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+    align-items: center;
+}
+
+.displayAddress{
+    display: flex;
+    width: 400px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.adddel{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.fullAddress{
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 30px;
+    color: #83858A;
+}
+
+.subandSale{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    color: #83858A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60px;
+    padding: 10px;
+}
+.subandSale span{
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 280px;
+
+}
+
+.subandSale p{
+    font-size: 14px;
+    font-weight:600;
+  
+}
+
+.subtotal{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.subtotal span{
+font-weight: 400;
+color: #83858A;
+margin-right: 230px;
+}
+
+.placeOrderButton{
+    width: 400px;
+    background-color: #FC8A06; 
+    color: white;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.mcIm{
+    width: 180px;
+    height:160px;
+  }
+ 
+  .mc{
+    background-color: #FC8A06;
+    border-radius: 10px;
+  
+  }
+ 
+  .mcp{
+    font-size: 13px;
+    color: white;
+    font-weight: 700;
+    padding-left: 40px;
+  }
+
+  .allrest{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .lastrest{
+    margin-top: 30px;
+  }
+
+  .headline{
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  @media(max-width: 768px) {
+    .container {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .heading{
+        margin-left:40px
+    }
+    .foodsorder {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .lastrest {
+        display: none;
+    }
+
+    .addingAddress {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        order: 2;
+        margin-top: 30px;
+    }
+
+    .itemDetails p{
+        font-size: 12px;
+        font-weight: 400;
+        width: 340px;
+        margin-top: 8px;
+        }
+ 
+        .checkfood{
+            border: 1px solid black;
+            width: 550px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            border-radius: 12px;
+          margin-left: 40px;
+        } 
+}

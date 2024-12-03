@@ -1,0 +1,78 @@
+.container{
+    width:1150px;
+    margin-left: 110px;
+    display: flex;
+    margin-bottom: 300px;
+}
+
+.addresses{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;  
+}
+
+.displayed{
+    border: 1px solid #AFAFAF;
+    width: 260px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+   justify-content: space-between;
+   border-radius: 12px;
+}
+
+.editdel{
+    display: flex;
+    gap: 20px;
+    color: #FC8A06;
+
+}
+
+.edit{
+    border-right: 2px solid #AFAFAF;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.delete{
+    cursor: pointer;
+}
+
+.add{
+    border: 1px dashed #AFAFAF;
+    width: 260px;
+    height: 210px;
+    margin-top: 20px;
+    border-radius: 12px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.add span{
+    font-size: 34px;
+    background-color: #FFEDD8;
+    color: #FC8A06;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headline{
+font-size: 30px;
+font-weight: 600;
+margin-left: 110px;
+margin-top: 30px;
+}

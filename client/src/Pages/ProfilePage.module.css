@@ -1,0 +1,125 @@
+.container{
+    width: 1150px;
+    margin-left: 110px;
+}
+
+.headline{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 110px;
+    margin-top: 30px;
+  }
+
+  .profile{
+margin-left: 110px;
+display: flex;
+  }
+
+  .username{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left:30px;
+    margin-top: 20px;
+  }
+
+  .profbt{
+    display: flex;
+    gap: 800px;
+  }
+
+  .inputcont{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subcont{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .inputcont p{
+    width: 400px;
+    height: 30px;
+    width:500px ;
+    height: 40px;
+    background-color: #efefef;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .name{
+    width:500px ;
+    height: 40px;
+    background-color: #efefef;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .label{
+    margin-top: 20px;
+  }
+
+  .edit{
+    width: 87px;
+    height: 40px;
+    background-color: #FC8A06;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .paymentmethod{
+    display:flex;
+   gap:30px;
+   margin-top: 40px;
+  }
+
+  .paymentcard{
+    display:flex;
+flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00000080;
+   width:260px;
+   height:70px;
+   border-radius: 12px;
+  }
+
+ .number{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+ }
+
+ .cardnumber{
+  font-size: 20px;
+  font-weight: 400;
+ }
+
+ .cardname{
+  color: gray;
+  font-size: 14px;
+  font-weight: 400;
+ }
+
+ .addcard{
+  border: 1px solid #00000080;
+  width:200px;
+  height:70px;
+  border-radius: 12px;
+  margin-top: 40px;
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 200px;
+ }
